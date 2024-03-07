@@ -11,9 +11,5 @@ export const s = StyleSheet.create({
         flex: 1,
 
     },
-    txt: {
-        fontSize: 30,
-        color: "red"
-    }
-
+    
 })
