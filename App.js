@@ -37,19 +37,19 @@ export default function App() {
       })
     } else {
       setCoordinates({
-        lat: "46.94",
-        lng: "-114,18",
+        lat: "16,04",
+        lng: "108,21",
       })
     }
   }
-  console.log(coordinates);
-  console.log(weather)
+  console.log(coordinates)
+
   return (
     <ImageBackground imageStyle={s.img} style={s.img_background} source={backgroundImg}>
 
       <SafeAreaProvider>
         <SafeAreaView style={s.container}>
-          {isFontLoaded && <Home />}
+          {isFontLoaded && weather && <Home weather={weather} />}
         </SafeAreaView>
       </SafeAreaProvider>
     </ImageBackground>

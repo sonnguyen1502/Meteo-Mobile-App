@@ -11,7 +11,7 @@ export const s = StyleSheet.create({
 
     },
     temperature: {
-        fontSize: 150,
+        fontSize: 130,
 
     },
     temperature_box: {
@@ -26,8 +26,7 @@ export const s = StyleSheet.create({
         fontSize: 25,
     },
     image: {
-        height: 50,
-        width: 50,
-        backgroundColor: "white",
+        height: 90,
+        width: 90,
     }
 });
